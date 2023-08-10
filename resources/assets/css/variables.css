@@ -1,0 +1,27 @@
+:root{
+    --color-base: #F4F6FC;
+    --color-base-darker: #eaecf1;
+    --color-primary: #4080FF;
+    --color-primary-darker: #3575F4;
+    --color-primary-rgb: 64, 128, 255;
+    --color-default: #F0F2FC;
+    --color-danger: #D63649;
+    --color-danger-darker: rgb(151, 30, 44);
+    --color-text: #2E384D;
+    --color-text-input-label: #69707F;
+    --color-text-lighter:#8798AD;
+    --color-text-secondary: #B0BAC9;
+    --color-text-input:#2E384D;
+    --color-border:#E4E8F0;
+    --color-icon:#BFC5D2;
+    --color-button-secondary:#8798AD;
+    --color-button-secondary-darker:rgb(94, 110, 129);
+    --color-input-disabled: #EEF3F5;
+    --color-background-light:#F9FAFC;
+
+    --small-size:12px;
+    --base-size:15px;
+    --medium-size:16px;
+    --large-size:18px;
+    --extra-large-size:28px;
+}
