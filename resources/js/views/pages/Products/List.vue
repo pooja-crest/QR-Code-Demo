@@ -449,6 +449,7 @@ export default {
         this.inputs.product.qr_code = product.qr_code;
         this.generated_qr_image = (product.qr_code != null && product.qr_code != '')?product.qr_code_path:null;
       }else{
+        this.uploaded_img = null;
         this.removeQrCode()
       }
     },

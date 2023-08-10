@@ -17,7 +17,7 @@ class ProductFilter extends ModelFilter
     public function search($value)
     {
         return $this->where(function ($q) use ($value) {
-            return $q->where('products.label', 'LIKE', "%$value%")->orWhere('products.item_no', 'LIKE', "%$value%");
+            return $q->where('products.label', 'LIKE', "$value%");
         });
     }
 
